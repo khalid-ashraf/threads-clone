@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user_uuid": "99909a67-7e83-47ff-b1ac-f4cc10513373",
+      "username": "Syed Khalid Ashraf",
+      "handle": "khalidashraf",
+      "bio": "Wanna be front end dev",
+      "link": "https://github.com/syed-khalid"
+    }
+  ],
+  "threads": []
+}
