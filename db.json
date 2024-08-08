@@ -1,13 +1,120 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": 0,
       "user_uuid": "99909a67-7e83-47ff-b1ac-f4cc10513373",
       "username": "Syed Khalid Ashraf",
       "handle": "khalidashraf",
       "bio": "Wanna be front end dev",
-      "link": "https://github.com/syed-khalid"
+      "link": "https://github.com/khalid-ashraf",
+      "img": "https://avatars.githubusercontent.com/u/21981865?v=4",
+      "instagram_url": "https://www.instagram.com/",
+      "followers": [
+        {
+          "user_uuid": "55f627af-021a-496b-9d18-af1a57552f7f"
+        },
+        {
+          "user_uuid": "eda12ebf-c9d8-4b70-9152-63ac9d3779c1"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "user_uuid": "55f627af-021a-496b-9d18-af1a57552f7f",
+      "username": "Bob's Burger",
+      "handle": "bobburger",
+      "bio": "Burger Man",
+      "link": "https://www.bk.com/",
+      "img": "https://cdn.sanity.io/images/czqk28jt/prod_bk_us/2b60390402530831a1e97c98d699337a5eefad6c-2000x1000.png?w=450&q=80&fit=max&auto=format",
+      "instagram_url": "https://www.instagram.com/",
+      "followers": [
+        {
+          "user_uuid": "99909a67-7e83-47ff-b1ac-f4cc10513373"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_uuid": "eda12ebf-c9d8-4b70-9152-63ac9d3779c1",
+      "username": "Sydney Sweeney",
+      "handle": "ssweeney",
+      "bio": "Actress",
+      "link": "https://www.instagram.com/sydney_sweeney/?hl=en",
+      "img": "https://m.media-amazon.com/images/M/MV5BOTVjOTkxNjMtNDJiYS00YzEzLThmZTItZjJhM2E4NWQyM2Q2XkEyXkFqcGdeQXVyNzM1NTU0NA@@._V1_.jpg",
+      "instagram_url": "https://www.instagram.com/sydney_sweeney/?hl=en",
+      "followers": [
+        {
+          "user_uuid": "99909a67-7e83-47ff-b1ac-f4cc10513373"
+        },
+        {
+          "user_uuid": "55f627af-021a-496b-9d18-af1a57552f7f"
+        }
+      ]
     }
   ],
-  "threads": []
+  "threads": [
+    {
+      "id": 0,
+      "timestamp": "Wed Aug 07 2024 17:17:12 GMT-0400 (Eastern Daylight Time)",
+      "thread_from": "99909a67-7e83-47ff-b1ac-f4cc10513373",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Hello World",
+      "likes": [
+        {
+          "uuid": "55f627af-021a-496b-9d18-af1a57552f7f"
+        },
+        {
+          "uuid": "eda12ebf-c9d8-4b70-9152-63ac9d3779c1"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "timestamp": "Thu Aug 08 2024 17:17:12 GMT-0400 (Eastern Daylight Time)",
+      "thread_from": "99909a67-7e83-47ff-b1ac-f4cc10513373",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Hello World Again",
+      "likes": [
+        {
+          "uuid": "eda12ebf-c9d8-4b70-9152-63ac9d3779c1"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "timestamp": "Fri Aug 09 2024 17:17:12 GMT-0400 (Eastern Daylight Time)",
+      "thread_from": "99909a67-7e83-47ff-b1ac-f4cc10513373",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Hello World Again Again",
+      "likes": []
+    },
+    {
+      "id": 3,
+      "timestamp": "Sat Aug 10 2024 17:17:12 GMT-0400 (Eastern Daylight Time)",
+      "thread_from": "eda12ebf-c9d8-4b70-9152-63ac9d3779c1",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Euphoria!",
+      "likes": [
+        {
+          "uuid": "55f627af-021a-496b-9d18-af1a57552f7f"
+        },
+        {
+          "uuid": "99909a67-7e83-47ff-b1ac-f4cc10513373"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "timestamp": "Sat Aug 10 2024 17:1:12 GMT-0400 (Eastern Daylight Time)",
+      "thread_from": "eda12ebf-c9d8-4b70-9152-63ac9d3779c1",
+      "thread_to": "99909a67-7e83-47ff-b1ac-f4cc10513373",
+      "reply_to": 1,
+      "text": "Hi",
+      "likes": []
+    }
+  ]
 }
