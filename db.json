@@ -110,8 +110,8 @@
     {
       "id": 4,
       "timestamp": "Sat Aug 10 2024 17:1:12 GMT-0400 (Eastern Daylight Time)",
-      "thread_from": "eda12ebf-c9d8-4b70-9152-63ac9d3779c1",
-      "thread_to": "99909a67-7e83-47ff-b1ac-f4cc10513373",
+      "thread_from": "99909a67-7e83-47ff-b1ac-f4cc10513373",
+      "thread_to": "eda12ebf-c9d8-4b70-9152-63ac9d3779c1",
       "reply_to": 1,
       "text": "Hi",
       "likes": []
